@@ -47,8 +47,9 @@ The other problems have no fix. Each problem now has its own ticket, linked belo
   got Tuesday. Client in Toronto got Monday."). A day/month swap cannot do that. The desk had
   already listed these in `desk-notes.json` and filed them under parser.
 
-The table counts each report once. The export repeats some reports across pages; they are
-dropped by id.
+The table counts the way the desk's own view does: the export repeats some reports across
+pages, and repeats are dropped by id; one-day moves stay counted where they are filed, with a
+footnote.
 
 ## Why they ended up in one ticket
 
